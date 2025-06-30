@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.ank {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: large;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100vw;
+    border: 2px solid;
+    border-radius: 2px;
+    background-color: rgb(166, 198, 208);  
+    position: fixed;
+    
+}
+ 
+
+a:hover{ 
+    border-radius: 6px;
+    background-color: rgb(223, 227, 210);
+    color: rgb(79, 28, 86);
+    box-shadow: 2px 2px;
+}
+.mid{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(nature.jpg);
+    background-size: cover;
+}
+
+.mid1{
+    background-image: url(lap.jpg);
+}
+
+img{   
+padding-left: 10px;
+}
+

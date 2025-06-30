@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form For Event</title>
+    <link rel="stylesheet" href="EVENT.css"
+</head>
+<body>
+    <center>
+        <h1> Registration form for Event</h1>
+        <form class="form1">
+
+        <label for="name">Full NAME :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" name="phone no" id="phone" maxlength="10"><br>
+
+        <label for="Event_s">Event selection</label>
+        <select name="Event" id="Event_s" required>
+            <option value="">--choose Event--</option>
+           <option value="1">Event 1</option>
+           <option value="2">Event 2</option>
+           <option value="3">Event 3</option>
+           <option value="4">Event 4</option>
+           <option value="5">Event 5</option>     
+
+        </select><br>
+
+        <label for="Gender">Gender :</label>
+        <label for="male">MALE </label>
+        <input type="radio" id="male"  required>
+        <label for="female"> FEMALE </label>
+        <input type="radio" id="female"  required><br>
+        
+        <input type="checkbox" name="T&C" id="rule" required>
+        <label  for="rule">Terms & conditions :</label>
+        <input type="text" placeholder="Terms & conditions" disabled><br>
+        
+
+        <button type="submit">submit</button><br>
+
+        
+    </form>
+    </center>
+</body>
+</html>

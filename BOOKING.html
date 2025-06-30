@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking form</title>
+    <link rel="stylesheet" href="Booking.css">
+</head>
+<body>
+     <center>
+        <h1>Travel Boooking Form</h1>
+        <form class="form1">
+
+        <label for="name">Full NAME :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" name="phone no" id="phone" maxlength="10"><br>
+
+        <label for="dest">Destination</label>
+        <select name="destination" id="dest" required>
+            <option value="">--choose destination--</option>
+           <option value="1">dest 1</option>
+           <option value="2">dest 2</option>
+           <option value="3">dest 3</option>
+           <option value="4">dest 4</option>
+           <option value="5">dest 5</option>     
+
+        </select><br>
+
+        <label for="t_date">Travel Date</label>
+        <input type="date" name="date" id="t_date" required><br>
+        
+        <label for="notr  ">Number of Travelers  :</label>
+        <input type="number" name="Travelers" id="notr" min="1"  required><br>
+        
+        <label for="class">Travel class(Economic/Business)</label>
+        <input type="text" id="class" ><br>
+        
+
+        <button type="submit">submit</button><br>
+
+        
+    </form>
+    </center>
+</body>
+</html>

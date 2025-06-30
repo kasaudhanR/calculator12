@@ -1,0 +1,22 @@
+.form1{
+    height: 500px;
+    width: 500px;
+    border: 2px solid;
+    font-size: 20px;
+    line-height: 2;
+    border-radius: 8px;
+    box-shadow: 2px 2px ;
+    background-color: rgb(183, 168, 173);
+}
+
+input{
+    border-radius: 4px;
+    height: 18px;
+}
+
+button{
+    margin-top: 40px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: rgb(196, 224, 72);
+}
